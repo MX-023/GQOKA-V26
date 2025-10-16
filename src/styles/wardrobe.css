@@ -1,0 +1,5 @@
+.toolbar { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.items { display: grid; gap: 12px; grid-template-columns: repeat(2, 1fr); }
+@media (min-width: 768px) { .items { grid-template-columns: repeat(4, 1fr); } }
+.item-img { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 12px; border:1px solid #222; }
+.item-title { font-size: 14px; margin-top: 6px; color:#ddd; }
